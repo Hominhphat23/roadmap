@@ -109,3 +109,18 @@ The following is a list of our current product SKUs.
 ## Disclaimer 
 
 Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to GitHub as of the date they are made, and GitHub assumes no obligation to update any forward-looking statements. The forward-looking product roadmap does not represent a commitment, guarantee, obligation or promise to deliver any product or feature, or to deliver any product and feature by any particular date, and is intended to outline the general development plans. Customers should not rely on this roadmap to make any purchasing decision.
+
+@targos pushed 12 commits.
+
+b4cd81b deps: update V8 to 12.9.202.18
+013f7d8 build: reset embedder string to "-node.0"
+40113d1 src: update NODE_MODULE_VERSION to 131
+affda4e deps: always define V8_EXPORT_PRIVATE as no-op
+ddf2ae4 deps: disable V8 concurrent sparkplug compilation
+d9b1876 deps: patch V8 to avoid duplicated zlib symbol
+763a6b9 deps: patch V8 to support compilation with MSVC
+4d662bb deps: fix FP16 bitcasts.h
+4e012d4 deps: always define V8_NODISCARD as no-op
+f00716f deps: patch V8 to support older Clang versions
+d2250da deps: V8: cherry-pick 01a47f3ffff2
+d174634 deps: V8: cherry-pick 97199f686e2f
